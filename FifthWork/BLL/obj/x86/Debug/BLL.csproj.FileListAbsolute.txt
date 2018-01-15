@@ -1,0 +1,30 @@
+c:\users\admit\documents\visual studio 2010\Projects\NoteBookBeta1\BLL\obj\x86\Debug\BLL.Properties.Resources.resources
+c:\users\admit\documents\visual studio 2010\Projects\NoteBookBeta1\BLL\obj\x86\Debug\BLL.csproj.GenerateResource.Cache
+C:\Users\admit\documents\visual studio 2010\Projects\NoteBookBeta1\BLL\bin\Debug\BLL.dll
+C:\Users\admit\documents\visual studio 2010\Projects\NoteBookBeta1\BLL\bin\Debug\BLL.pdb
+C:\Users\admit\documents\visual studio 2010\Projects\NoteBookBeta1\BLL\bin\Debug\DALFactory.dll
+C:\Users\admit\documents\visual studio 2010\Projects\NoteBookBeta1\BLL\bin\Debug\IDAL.dll
+C:\Users\admit\documents\visual studio 2010\Projects\NoteBookBeta1\BLL\bin\Debug\Model.dll
+C:\Users\admit\documents\visual studio 2010\Projects\NoteBookBeta1\BLL\bin\Debug\DAL.dll
+C:\Users\admit\documents\visual studio 2010\Projects\NoteBookBeta1\BLL\bin\Debug\DALFactory.pdb
+C:\Users\admit\documents\visual studio 2010\Projects\NoteBookBeta1\BLL\bin\Debug\IDAL.pdb
+C:\Users\admit\documents\visual studio 2010\Projects\NoteBookBeta1\BLL\bin\Debug\Model.pdb
+C:\Users\admit\documents\visual studio 2010\Projects\NoteBookBeta1\BLL\bin\Debug\DAL.pdb
+C:\Users\admit\documents\visual studio 2010\Projects\NoteBookBeta1\BLL\obj\x86\Debug\BLL.csprojResolveAssemblyReference.cache
+C:\Users\admit\documents\visual studio 2010\Projects\NoteBookBeta1\BLL\obj\x86\Debug\BLL.dll
+C:\Users\admit\documents\visual studio 2010\Projects\NoteBookBeta1\BLL\obj\x86\Debug\BLL.pdb
+C:\Users\Lenovo\Desktop\c#答辩\NoteBookBeta1\BLL\bin\Debug\BLL.dll
+C:\Users\Lenovo\Desktop\c#答辩\NoteBookBeta1\BLL\bin\Debug\BLL.pdb
+C:\Users\Lenovo\Desktop\c#答辩\NoteBookBeta1\BLL\bin\Debug\DALFactory.dll
+C:\Users\Lenovo\Desktop\c#答辩\NoteBookBeta1\BLL\bin\Debug\IDAL.dll
+C:\Users\Lenovo\Desktop\c#答辩\NoteBookBeta1\BLL\bin\Debug\Model.dll
+C:\Users\Lenovo\Desktop\c#答辩\NoteBookBeta1\BLL\bin\Debug\DAL.dll
+C:\Users\Lenovo\Desktop\c#答辩\NoteBookBeta1\BLL\bin\Debug\DALFactory.pdb
+C:\Users\Lenovo\Desktop\c#答辩\NoteBookBeta1\BLL\bin\Debug\IDAL.pdb
+C:\Users\Lenovo\Desktop\c#答辩\NoteBookBeta1\BLL\bin\Debug\Model.pdb
+C:\Users\Lenovo\Desktop\c#答辩\NoteBookBeta1\BLL\bin\Debug\DAL.pdb
+C:\Users\Lenovo\Desktop\c#答辩\NoteBookBeta1\BLL\obj\x86\Debug\BLL.csprojResolveAssemblyReference.cache
+C:\Users\Lenovo\Desktop\c#答辩\NoteBookBeta1\BLL\obj\x86\Debug\BLL.Properties.Resources.resources
+C:\Users\Lenovo\Desktop\c#答辩\NoteBookBeta1\BLL\obj\x86\Debug\BLL.csproj.GenerateResource.Cache
+C:\Users\Lenovo\Desktop\c#答辩\NoteBookBeta1\BLL\obj\x86\Debug\BLL.dll
+C:\Users\Lenovo\Desktop\c#答辩\NoteBookBeta1\BLL\obj\x86\Debug\BLL.pdb

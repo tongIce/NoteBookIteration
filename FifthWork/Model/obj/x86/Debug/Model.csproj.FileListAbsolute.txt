@@ -1,0 +1,7 @@
+c:\users\admit\documents\visual studio 2010\Projects\NoteBookBeta1\Model\obj\x86\Debug\Model.Properties.Resources.resources
+c:\users\admit\documents\visual studio 2010\Projects\NoteBookBeta1\Model\obj\x86\Debug\Model.csproj.GenerateResource.Cache
+C:\Users\admit\documents\visual studio 2010\Projects\NoteBookBeta1\Model\bin\Debug\Model.dll
+C:\Users\admit\documents\visual studio 2010\Projects\NoteBookBeta1\Model\bin\Debug\Model.pdb
+C:\Users\admit\documents\visual studio 2010\Projects\NoteBookBeta1\Model\obj\x86\Debug\Model.dll
+C:\Users\admit\documents\visual studio 2010\Projects\NoteBookBeta1\Model\obj\x86\Debug\Model.pdb
+C:\Users\admit\documents\visual studio 2010\Projects\NoteBookBeta1\Model\obj\x86\Debug\Model.csprojResolveAssemblyReference.cache

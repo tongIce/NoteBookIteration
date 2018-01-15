@@ -1,0 +1,13 @@
+c:\users\admit\documents\visual studio 2010\Projects\NoteBookBeta1\DALFactory\obj\x86\Debug\DALFactory.Properties.Resources.resources
+c:\users\admit\documents\visual studio 2010\Projects\NoteBookBeta1\DALFactory\obj\x86\Debug\DALFactory.csproj.GenerateResource.Cache
+C:\Users\admit\documents\visual studio 2010\Projects\NoteBookBeta1\DALFactory\bin\Debug\DALFactory.dll
+C:\Users\admit\documents\visual studio 2010\Projects\NoteBookBeta1\DALFactory\bin\Debug\DALFactory.pdb
+C:\Users\admit\documents\visual studio 2010\Projects\NoteBookBeta1\DALFactory\bin\Debug\DAL.dll
+C:\Users\admit\documents\visual studio 2010\Projects\NoteBookBeta1\DALFactory\bin\Debug\IDAL.dll
+C:\Users\admit\documents\visual studio 2010\Projects\NoteBookBeta1\DALFactory\bin\Debug\Model.dll
+C:\Users\admit\documents\visual studio 2010\Projects\NoteBookBeta1\DALFactory\bin\Debug\DAL.pdb
+C:\Users\admit\documents\visual studio 2010\Projects\NoteBookBeta1\DALFactory\bin\Debug\IDAL.pdb
+C:\Users\admit\documents\visual studio 2010\Projects\NoteBookBeta1\DALFactory\bin\Debug\Model.pdb
+C:\Users\admit\documents\visual studio 2010\Projects\NoteBookBeta1\DALFactory\obj\x86\Debug\DALFactory.csprojResolveAssemblyReference.cache
+C:\Users\admit\documents\visual studio 2010\Projects\NoteBookBeta1\DALFactory\obj\x86\Debug\DALFactory.dll
+C:\Users\admit\documents\visual studio 2010\Projects\NoteBookBeta1\DALFactory\obj\x86\Debug\DALFactory.pdb
