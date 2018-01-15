@@ -1,0 +1,5 @@
+C:\Users\admit\Documents\Visual Studio 2010\Projects\NoteBookConsole\NoteBookConsole\bin\Debug\NoteBookConsole.exe
+C:\Users\admit\Documents\Visual Studio 2010\Projects\NoteBookConsole\NoteBookConsole\bin\Debug\NoteBookConsole.pdb
+C:\Users\admit\Documents\Visual Studio 2010\Projects\NoteBookConsole\NoteBookConsole\obj\x86\Debug\NoteBookConsole.csprojResolveAssemblyReference.cache
+C:\Users\admit\Documents\Visual Studio 2010\Projects\NoteBookConsole\NoteBookConsole\obj\x86\Debug\NoteBookConsole.exe
+C:\Users\admit\Documents\Visual Studio 2010\Projects\NoteBookConsole\NoteBookConsole\obj\x86\Debug\NoteBookConsole.pdb
