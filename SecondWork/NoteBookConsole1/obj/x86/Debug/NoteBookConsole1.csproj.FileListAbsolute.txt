@@ -1,0 +1,4 @@
+c:\users\admit\documents\visual studio 2010\Projects\NoteBookConsole1\NoteBookConsole1\bin\Debug\NoteBookConsole1.exe
+c:\users\admit\documents\visual studio 2010\Projects\NoteBookConsole1\NoteBookConsole1\bin\Debug\NoteBookConsole1.pdb
+c:\users\admit\documents\visual studio 2010\Projects\NoteBookConsole1\NoteBookConsole1\obj\x86\Debug\NoteBookConsole1.exe
+c:\users\admit\documents\visual studio 2010\Projects\NoteBookConsole1\NoteBookConsole1\obj\x86\Debug\NoteBookConsole1.pdb
