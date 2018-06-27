@@ -1,0 +1,1 @@
+为sqlserver文件，将数据库导入到sqlserver即可。
