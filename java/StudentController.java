@@ -1,31 +1,5 @@
 package com.litt.micro.controller;
 
-import java.io.IOException;
-import java.io.PrintWriter;
-
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
-
-import org.apache.http.util.TextUtils;
-import org.apache.log4j.Logger;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.servlet.ModelAndView;
-import org.springframework.web.servlet.view.RedirectView;
-
-import com.alibaba.fastjson.JSONObject;
-import com.litt.micro.entity.Student;
-import com.litt.micro.service.IStudentService;
-import com.litt.micro.util.SignUtil;
-import com.litt.micro.util.WeixinUtil;
-import com.litt.micro.util.AES.AES;
-import com.litt.micro.util.check.Checkout;
-import com.litt.micro.util.post.PostWithJson;
-import com.litt.micro.util.prompt.HintoFront;
-import com.litt.micro.util.stu.MicroStu;
-import com.litt.micro.util.stu.Rdata;
 
 
 /**
@@ -61,7 +35,12 @@ public class StudentController {
 				request.getSession().setAttribute("state", state);	
 				//return "/jsp/openId/openId";
 				//return "/jsp/test/testPath";
-
+				//这是我添加的代码
+				request.getSession().setAttribute("state", state);	
+				request.getSession().setAttribute("state", state);	
+				request.getSession().setAttribute("state", state);	
+				request.getSession().setAttribute("student", state);	
+				return "/jsp/test/testPath";
 
 			} else {
 				return "/jsp/error/error";
