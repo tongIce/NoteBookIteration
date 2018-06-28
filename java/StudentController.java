@@ -60,7 +60,7 @@ public class StudentController {
 				//跳转到登录页面,将state放心request提供给下个方法
 				request.getSession().setAttribute("state", state);	
 				//return "/jsp/openId/openId";
-				return "/jsp/test/testPath";
+				//return "/jsp/test/testPath";
 
 
 			} else {
@@ -114,9 +114,9 @@ public class StudentController {
 			return "/jsp/student/stu_identify";
 		}
 		//当用户信息正确，通过code获得openid,并将openid和student表 进行关联，同时保存用户的手机号
-		String code = (String) request.getSession().getAttribute("code");
+		/*String code = (String) request.getSession().getAttribute("code");
 		String openid = WeixinUtil.getOpenid(code);
-		studentServiceImpl.saveOpenId(openid,name,number,telephone);
+		studentServiceImpl.saveOpenId(openid,name,number,telephone);*/
 		
 		MicroStu mstu = new MicroStu();
 		//填充微校必须的字段(学号，姓名，年级，学院/部门，专业，手机号和身份证不能同时为空)
