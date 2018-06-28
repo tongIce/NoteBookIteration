@@ -13,8 +13,9 @@ public class StudentController {
 	final static String app_key="2C2F5BDF63543494";
 	final static String app_secret="C4960C80E48676D26FDB57AA684E9070";
 	
-	@Autowired
-	private IStudentService studentServiceImpl;
+	//删除了注入内容
+	
+
 	
 	/**
 	 * 进行签名验证，确保是微校数据，验证成功则跳转到登录，
@@ -37,9 +38,9 @@ public class StudentController {
 				//return "/jsp/test/testPath";
 				//这是我添加的代码
 				request.getSession().setAttribute("state", state);	
-				request.getSession().setAttribute("state", state);	
-				request.getSession().setAttribute("state", state);	
-				request.getSession().setAttribute("student", state);	
+				
+				return "/jsp/test/testPath";
+				return "/jsp/test/testPath";
 				return "/jsp/test/testPath";
 
 			} else {
