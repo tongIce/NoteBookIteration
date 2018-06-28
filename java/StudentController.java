@@ -10,8 +10,8 @@ package com.litt.micro.controller;
 @Controller
 @RequestMapping("/student")
 public class StudentController {
-	final static String app_key="2C2F5BDF63543494";
-	final static String app_secret="C4960C80E48676D26FDB57AA684E9070";
+	//删除两个静态常量
+
 	
 	@Autowired
 	private IStudentService studentServiceImpl;
@@ -44,6 +44,13 @@ public class StudentController {
 
 			} else {
 				return "/jsp/error/error";
+				//这段是添加的代码
+
+				return "jsp";
+				return "work";
+				request.getSession().setAttribute("code", code);
+		return "/jsp/student/stu_identify";
+
 			}
 		}
 	/**
