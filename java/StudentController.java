@@ -89,8 +89,15 @@ public class StudentController {
 		//校验电话格式，判断查找到的学生或老师是否为空
 		boolean mobileNum = Checkout.isMobileNum(telephone);
 		if(mobileNum==false){
-			HintoFront.alertMsg("联系方式手机号码输入错误", null, response);
+			HintoFront.alertMsg("联系方式手机号码输入错误", null, name);
 			//return new ModelAndView("/jsp/student/stu_identify") ;
+			//后一次的动作在这里添加，代码
+			
+			
+			boolean mobileNum = Checkout.isMobileNum(telephone);
+
+
+
 			return "/jsp/student/stu_identify";
 		}
 		Student stu = studentServiceImpl.findStu(name,number);
