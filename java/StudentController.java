@@ -10,74 +10,7 @@ package com.litt.micro.controller;
 @Controller
 @RequestMapping("/student")
 public class StudentController {
-	//删除两个静态常量
-
 	
-	//删除了注入内容
-	
-
-	
-	/**
-	 * 进行签名验证，确保是微校数据，验证成功则跳转到登录，
-	 * 失败跳转到失败页面
-	 * @param state
-	 * @param app_key
-	 * @param timestamp
-	 * @param nonce_str
-	 * @param sign
-	 */
-	@RequestMapping("/sign")
-	public String  load(HttpServletRequest request,HttpServletResponse response, String state ,String app_key ,
-			String timestamp,String nonce_str,String sign,String code ){
-			
-			System.out.println(state+"这是state代码，是不是会变的");
-			if (SignUtil.checkSignature(state,app_key, timestamp, nonce_str,sign)) {
-				//跳转到登录页面,将state放心request提供给下个方法
-				request.getSession().setAttribute("state", state);	
-				//return "/jsp/openId/openId";
-				//return "/jsp/test/testPath";
-				//这是我添加的代码
-				request.getSession().setAttribute("state", state);	
-				
-				return "/jsp/test/testPath";
-				return "/jsp/test/testPath";
-				return "/jsp/test/testPath";
-
-			} else {
-				return "/jsp/error/error";
-				//这段是添加的代码
-
-				return "jsp";
-				return "work";
-				request.getSession().setAttribute("code", code);
-		return "/jsp/student/stu_identify";
-
-			}
-		}
-	/**
-	 * 获取用户的基本信息openId
-	 * @param code
-	 * @return
-	 */
-	@RequestMapping("information")
-	public String getUserInfo(HttpServletRequest request,String code){
-		System.out.println("这是获取到的code:"+code);
-		//将code放到session域中
-		request.getSession().setAttribute("code", code);
-		return "/jsp/student/stu_identify";
-	}
-	
-	/**
-	 * 用户信息进行验证，同时将微信用户的openid和student表进行关联
-	 * @param request
-	 * @param response
-	 * @param name
-	 * @param number
-	 * @param telephone
-	 * @param ID
-	 * @param state
-	 * @return
-	 */
 	@RequestMapping("/identify")
 	public String  stuIdentify(HttpServletRequest request,HttpServletResponse response,
 			String name,String number,String telephone,String ID,String state
@@ -87,10 +20,13 @@ public class StudentController {
 		 * 2、根据工号/学号查找出教职工和学生
 		 */
 		//校验电话格式，判断查找到的学生或老师是否为空
-		boolean mobileNum = Checkout.isMobileNum(telephone);
+		boolean mobileNum = Checkout.isMobileNum(ID);
 		if(mobileNum==false){
-			HintoFront.alertMsg("联系方式手机号码输入错误", null, response);
-			//return new ModelAndView("/jsp/student/stu_identify") ;
+			HintoFront.alertMsg("联系方式手机号码输入错误", request, response);
+			
+			
+
+
 			return "/jsp/student/stu_identify";
 		}
 		Student stu = studentServiceImpl.findStu(name,number);
